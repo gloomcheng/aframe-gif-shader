@@ -1,7 +1,7 @@
 {
   "name": "aframe-gif-shader",
   "version": "1.0.0",
-  "description": "A gif shader for A-Frame VR.",
+  "description": "A TypeScript implementation of GIF shader and component for A-Frame VR, with extended version support.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -25,7 +25,8 @@
     "gif",
     "shader",
     "material",
-    "animation"
+    "animation",
+    "typescript"
   ],
   "author": "Fuyuan Cheng <gloomcheng@gmail.com>",
   "license": "MIT",
@@ -46,14 +47,6 @@
   "peerDependencies": {
     "aframe": ">=1.3.0"
   },
-  "contributors": [
-    "UXVirtual <michael@uxvirtual.com> (http://www.uxvirtual.com)",
-    "Uri Shaked <uri@urish.org> (http://www.urish.org)",
-    "Pablo Diego Silva da Silva <pablodiegoss@hotmail.com> (https://github.com/pablodiegoss)",
-    "margauxdivernois (https://github.com/margauxdivernois)",
-    "Danpollak (https://github.com/Danpollak)",
-    "Mayo Tobita <tobimayo@gmail.com> (https://github.com/mayognaise)"
-  ],
   "dependencies": {
     "gifuct-js": "^2.1.2",
     "three": "^0.174.0"

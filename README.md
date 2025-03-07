@@ -210,9 +210,23 @@ npm install
 npm run build
 ```
 
-## License
+## License and Dependencies
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE) - see the LICENSE file for details.
+
+### Core Dependencies
+
+- [A-Frame](https://github.com/aframevr/aframe) (MIT License) - Web framework for building virtual reality experiences
+- [Three.js](https://github.com/mrdoob/three.js) (MIT License) - JavaScript 3D library
+- [gifuct-js](https://github.com/matt-way/gifuct-js) (MIT License) - Pure JavaScript GIF decoder
+
+### Development Dependencies
+
+- TypeScript (Apache-2.0 License)
+- Webpack (MIT License)
+- Various TypeScript and Webpack related packages (MIT License)
+
+All dependencies are compatible with the MIT License terms. For a complete list of dependencies and their licenses, please check the `package.json` file.
 
 ## Contributing
 

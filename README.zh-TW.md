@@ -210,9 +210,23 @@ npm install
 npm run build
 ```
 
-## 授權
+## 授權和依賴
 
-本專案使用 MIT 授權 - 詳見 LICENSE 文件。
+本專案使用 [MIT 授權](LICENSE) - 詳見 LICENSE 文件。
+
+### 核心依賴
+
+- [A-Frame](https://github.com/aframevr/aframe) (MIT 授權) - 用於建構虛擬實境體驗的網頁框架
+- [Three.js](https://github.com/mrdoob/three.js) (MIT 授權) - JavaScript 3D 函式庫
+- [gifuct-js](https://github.com/matt-way/gifuct-js) (MIT 授權) - 純 JavaScript GIF 解碼器
+
+### 開發依賴
+
+- TypeScript (Apache-2.0 授權)
+- Webpack (MIT 授權)
+- 其他 TypeScript 和 Webpack 相關套件 (MIT 授權)
+
+所有依賴都與 MIT 授權條款相容。完整的依賴清單和其授權資訊，請查看 `package.json` 文件。
 
 ## 貢獻
 
