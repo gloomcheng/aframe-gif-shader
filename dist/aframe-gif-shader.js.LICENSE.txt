@@ -1,0 +1,10 @@
+/**
+ * A-Frame GIF Shader and Component
+ *
+ * A TypeScript implementation for displaying animated GIFs in A-Frame scenes.
+ * Combines both shader and component functionalities in a single package.
+ *
+ * @see {@link https://aframe.io/docs/1.7.0/introduction/} A-Frame Documentation
+ * @version 1.0.0
+ * @license MIT
+ */
